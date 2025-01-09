@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mes competence</title>
+</head>
+<style>
+    body{
+        background-color: #4b4bc4cb;
+    }
+      .skills-container {
+    text-align: center;
+    width: 500px;
+    margin-left: 30%;
+    padding: 110px;
+    margin-top: 2%;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .progress-bar {
+    background-color: #2c2c2c;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #1505f7,#e4edf5da );
+    width: 0%;
+  }
+  
+  .progress.html {
+    width: 70%;
+  }
+  
+  .progress.css {
+    width: 60%;
+  }
+  
+  .progress.php {
+    width: 40%;
+  }
+  
+  .progress.javascript {
+    width: 90%;
+  }
+
+  nav  ul li{
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 25px;
+
+    
+}
+nav ul li a{
+    list-style-type:none ;
+    color: aliceblue;
+}
+nav{
+    padding: 5px;
+    background-color: blue;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li {
+    margin-left: 7%;
+}
+nav ul li:hover a{
+    background-color: rgb(240, 240, 244);
+    color: #000;
+    padding: 10px;
+    transition: 0.3s all;
+
+    
+}
+</style>
+<body>
+
+        <nav>
+            <ul>
+                <li> <a href="index.html">acceuil</a></li>
+                <li> <a href="#">Compétences</a></li>
+                <li> <a href="projet.html">Projets</a></li>
+                <li> <a href="contact1.html">contact</a></li>
+            </ul> 
+        </nav> 
+        
+         <div class="skills-container">
+         <h1>Compétences</h1>
+         <div class="skill">
+          <p>HTML</p>
+          <div class="progress-bar">
+            <div class="progress html"></div>
+          </div>
+         </div>
+         <div class="skill">
+          <p>CSS</p>
+          <div class="progress-bar">
+            <div class="progress css"></div>
+          </div>
+         </div>
+         <div class="skill">
+          <p>JAVASCRIPT</p>
+          <div class="progress-bar">
+            <div class="progress php"></div>
+          </div>
+         </div>
+         <div class="skill">
+          <p>BUREAUTIQUE</p>
+          <div class="progress-bar">
+            <div class="progress javascript"></div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
